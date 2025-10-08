@@ -18,8 +18,8 @@ namespace WompWomp
         }
         public Car()
         {
-            model = "BMW";
-            horsepower = 190;
+            this.model = "BMW";
+            this.horsepower = 190;
         }
     }
     class Program
