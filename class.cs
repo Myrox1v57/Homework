@@ -16,15 +16,18 @@ namespace WompWomp
             get { return horsepower; }
             set { horsepower = value; }
         }
+        public Car()
+        {
+            model = "BMW";
+            horsepower = 190;
+        }
     }
     class Program
     {
         static void Main(string[] args)
         {
             Car myCar = new Car();
-            myCar.model = "Toyota";
-            myCar.horsepower = 150;
-            Console.WriteLine("Model: " + myCar.model);
+            Console.WriteLine("Model: " + myCar.model   );
             Console.WriteLine("Horsepower: " + myCar.horsepower);
         }
     }
