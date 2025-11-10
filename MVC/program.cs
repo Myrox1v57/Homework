@@ -30,7 +30,7 @@ namespace MVC
         }
         public Phone GetPhoneById(int id)
         {
-            return phones.FirstOrDefault(p => p.Id == id);
+            return phones.First(p => p.Id == id);
         }
         public void AddPhone(Phone phone)
         {
